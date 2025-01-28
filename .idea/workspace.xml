@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1e75ae-3896-4aed-8a3e-d167df37243b" name="更改" comment="backEnd init">
-      <change afterPath="$PROJECT_DIR$/backend/app/models/station.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/routes/station.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0f1e75ae-3896-4aed-8a3e-d167df37243b" name="更改" comment="数据集城市查询完成">
+      <change afterPath="$PROJECT_DIR$/front/src/views/DataManagement.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/views/StationManagement.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/models/station.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/station.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/routes/station.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routes/station.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/SidebarPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/SidebarPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Vue Composition API Component" />
         <option value="Python Script" />
+        <option value="Vue Composition API Component" />
       </list>
     </option>
   </component>
@@ -136,7 +137,8 @@
       <workItem from="1738037968095" duration="2845000" />
       <workItem from="1738041972028" duration="63000" />
       <workItem from="1738042842839" duration="1708000" />
-      <workItem from="1738044955680" duration="5200000" />
+      <workItem from="1738044955680" duration="7471000" />
+      <workItem from="1738052584540" duration="1373000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -154,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738045669855</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="数据集城市查询完成">
+      <option name="closed" value="true" />
+      <created>1738050312405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738050312405</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +196,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="backEnd init" />
-    <option name="LAST_COMMIT_MESSAGE" value="backEnd init" />
+    <MESSAGE value="数据集城市查询完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据集城市查询完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -200,6 +211,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/code$run.coverage" NAME="run 覆盖结果" MODIFIED="1738050162118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/code$run.coverage" NAME="run 覆盖结果" MODIFIED="1738052918886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
   </component>
 </project>

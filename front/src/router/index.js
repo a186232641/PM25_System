@@ -1,40 +1,19 @@
-// router/index.js
-import { createRouter, createWebHistory } from 'vue-router'
-import DataQuery from '../views/DataQuery.vue'
-import ModelTraining from '../views/ModelTraining.vue'
-import ConcentrationPredict from '../views/ConcentrationPredict.vue'
-import StationManagement from '../views/StationManagement.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import StationManagement from '../views/StationManagement.vue';
+// import DataQuery from './views/DataQuery.vue';
+// import ModelTraining from './views/ModelTraining.vue';
+// import ConcentrationPredict from './views/ConcentrationPredict.vue';
 
 const routes = [
-  {
-    path: '/',
-    redirect: '/data-query'
-  },
-  {
-    path: '/data-query',
-    name: 'DataQuery',
-    component: DataQuery
-  },
-  {
-    path: '/model-training',
-    name: 'ModelTraining',
-    component: ModelTraining
-  },
-  {
-    path: '/concentration-predict',
-    name: 'ConcentrationPredict',
-    component: ConcentrationPredict
-  },
-  {
-    path: '/city-history-query',
-    name: 'StationManagement',
-    component: StationManagement
-  }
-]
+  // { path: '/data-query', component: DataQuery },
+  // { path: '/model-training', component: ModelTraining },
+  // { path: '/concentration-predict', component: ConcentrationPredict },
+  { path: '/city-history-query', component: StationManagement, name: '监测站点管理' },
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

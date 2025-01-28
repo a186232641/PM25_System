@@ -9,7 +9,6 @@ class Station(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     name = db.Column(db.String(100), nullable=False)
     city = db.Column(db.String(100), nullable=False)
-    address = db.Column(db.String(200))
     longitude = db.Column(db.Float, nullable=False)
     latitude = db.Column(db.Float, nullable=False)
     status = db.Column(db.Boolean, default=True)
