@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1e75ae-3896-4aed-8a3e-d167df37243b" name="更改" comment="前后端城市数据查询完成">
-      <change afterPath="$PROJECT_DIR$/front/src/components/map/china.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/map/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/views/StationManagement.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/views/StationManagement.vue" afterDir="false" />
-    </list>
+    <list default="true" id="0f1e75ae-3896-4aed-8a3e-d167df37243b" name="更改" comment="完成数据集站点可视化" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +134,7 @@
       <workItem from="1738041972028" duration="63000" />
       <workItem from="1738042842839" duration="1708000" />
       <workItem from="1738044955680" duration="7471000" />
-      <workItem from="1738052584540" duration="9347000" />
+      <workItem from="1738052584540" duration="9983000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -175,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738054429885</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成数据集站点可视化">
+      <option name="closed" value="true" />
+      <created>1738065394668</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738065394668</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +210,8 @@
     <MESSAGE value="backEnd init" />
     <MESSAGE value="数据集城市查询完成" />
     <MESSAGE value="前后端城市数据查询完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="前后端城市数据查询完成" />
+    <MESSAGE value="完成数据集站点可视化" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成数据集站点可视化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
