@@ -17,6 +17,10 @@ def create_app():
 
     # 注册蓝图
     from .routes.station import station_bp
+    from .routes.features import feature_bp
+    from .routes.dataQuery import dataquery_bp
     app.register_blueprint(station_bp, url_prefix='/')
+    app.register_blueprint(feature_bp, url_prefix='/')
+    app.register_blueprint(dataquery_bp, url_prefix='/')
 
     return app

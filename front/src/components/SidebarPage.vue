@@ -17,10 +17,10 @@ export default {
   data() {
     return {
       routes: [
-        { path: '/data-query', name: '历史数据查询' },
-        { path: '/model-training', name: '模型训练' },
+        { path: '/history-data-query', name: '历史数据数据查询' },
+        { path: '/model-training', name: '深度学习模型训练' },
         { path: '/concentration-predict', name: 'PM2.5浓度预测' },
-        { path: '/city-history-query', name: '监测站点管理'}
+        { path: '/city-history-query', name: '监测站点可视化'}
       ]
     }
   }
