@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75da51ec-263a-4b32-8f28-e1dd1a351bc9" name="更改" comment="历史信息查询完成">
+    <list default="true" id="75da51ec-263a-4b32-8f28-e1dd1a351bc9" name="更改" comment="模型训练模拟完成。等待修改损失值、评价指标大小">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/ModelTraining.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/views/ModelTraining.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,22 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.CItyMapping.executor": "Run",
-    "Python.run.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/hanfeilong/Documents/SCI论文下载与阅读/大论文/code/backend/app/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.CItyMapping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hanfeilong/Documents/SCI论文下载与阅读/大论文/code/backend/app/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/data" />
@@ -134,7 +133,6 @@
       <list>
         <item itemvalue="Python.run" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.CItyMapping" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +155,7 @@
       <workItem from="1728429266492" duration="280000" />
       <workItem from="1738076378093" duration="3094000" />
       <workItem from="1738108931030" duration="9009000" />
+      <workItem from="1738213176870" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="历史信息查询完成">
       <option name="closed" value="true" />
@@ -166,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738137359966</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="模型训练模拟完成。等待修改损失值、评价指标大小">
+      <option name="closed" value="true" />
+      <created>1738213216625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738213216625</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +181,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="历史信息查询完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="历史信息查询完成" />
+    <MESSAGE value="模型训练模拟完成。等待修改损失值、评价指标大小" />
+    <option name="LAST_COMMIT_MESSAGE" value="模型训练模拟完成。等待修改损失值、评价指标大小" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,7 +4,7 @@
       <h3 class="title">模型训练记录</h3>
       
       <div v-if="completedTrainings.length" class="history-list">
-        <div v-for="(record, index) in completedTrainings" 
+        <div v-for="(record) in completedTrainings" 
              :key="record.id" 
              class="history-item"
         >
