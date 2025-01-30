@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75da51ec-263a-4b32-8f28-e1dd1a351bc9" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/data/changsanjiao.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/data/jingjinji.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/dataQuery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/Mapping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/src/views/DataQuery.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/station.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/station.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/components/SidebarPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/components/SidebarPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/router/index.js" afterDir="false" />
+    <list default="true" id="75da51ec-263a-4b32-8f28-e1dd1a351bc9" name="更改" comment="历史信息查询完成">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/views/ModelTraining.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/views/ModelTraining.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,12 +156,25 @@
       <updated>1728429264179</updated>
       <workItem from="1728429266492" duration="280000" />
       <workItem from="1738076378093" duration="3094000" />
-      <workItem from="1738108931030" duration="7666000" />
+      <workItem from="1738108931030" duration="9009000" />
     </task>
+    <task id="LOCAL-00001" summary="历史信息查询完成">
+      <option name="closed" value="true" />
+      <created>1738137359966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738137359966</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="历史信息查询完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="历史信息查询完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
